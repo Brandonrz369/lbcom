@@ -211,10 +211,10 @@ export default function FormsMonitor() {
               Refresh Submissions
             </button>
             <Link
-              href="/web-tools"
+              href="/admin/web-tools"
               className="px-4 py-2 bg-gray-700 text-white rounded-md hover:bg-gray-800"
             >
-              Web Tools
+              Admin Web Tools
             </Link>
           </div>
         )}

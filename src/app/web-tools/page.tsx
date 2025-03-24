@@ -30,6 +30,7 @@ export default function WebTools() {
                 : 'text-gray-500 hover:text-gray-700'
             }`}
             onClick={() => setActiveTab('simple')}
+            data-tool="simple"
           >
             Form Test
           </button>
@@ -40,6 +41,7 @@ export default function WebTools() {
                 : 'text-gray-500 hover:text-gray-700'
             }`}
             onClick={() => setActiveTab('debug')}
+            data-tool="debug"
           >
             Form Debug
           </button>
@@ -50,6 +52,7 @@ export default function WebTools() {
                 : 'text-gray-500 hover:text-gray-700'
             }`}
             onClick={() => setActiveTab('logs')}
+            data-tool="logs"
           >
             Form Logs
           </button>
@@ -60,6 +63,7 @@ export default function WebTools() {
                 : 'text-gray-500 hover:text-gray-700'
             }`}
             onClick={() => setActiveTab('speed')}
+            data-tool="speed"
           >
             Speed Test
           </button>
@@ -70,6 +74,7 @@ export default function WebTools() {
                 : 'text-gray-500 hover:text-gray-700'
             }`}
             onClick={() => setActiveTab('network')}
+            data-tool="network"
           >
             Network
           </button>
@@ -80,6 +85,7 @@ export default function WebTools() {
                 : 'text-gray-500 hover:text-gray-700'
             }`}
             onClick={() => setActiveTab('color')}
+            data-tool="color"
           >
             Colors
           </button>
@@ -90,6 +96,7 @@ export default function WebTools() {
                 : 'text-gray-500 hover:text-gray-700'
             }`}
             onClick={() => setActiveTab('password')}
+            data-tool="password"
           >
             Password
           </button>
@@ -100,6 +107,7 @@ export default function WebTools() {
                 : 'text-gray-500 hover:text-gray-700'
             }`}
             onClick={() => setActiveTab('domain')}
+            data-tool="domain"
           >
             Domain
           </button>
@@ -110,6 +118,7 @@ export default function WebTools() {
                 : 'text-gray-500 hover:text-gray-700'
             }`}
             onClick={() => setActiveTab('image')}
+            data-tool="image"
           >
             Images
           </button>
@@ -120,6 +129,7 @@ export default function WebTools() {
                 : 'text-gray-500 hover:text-gray-700'
             }`}
             onClick={() => setActiveTab('security')}
+            data-tool="security"
           >
             Security
           </button>
@@ -130,6 +140,7 @@ export default function WebTools() {
                 : 'text-gray-500 hover:text-gray-700'
             }`}
             onClick={() => setActiveTab('seo')}
+            data-tool="seo"
           >
             SEO
           </button>
