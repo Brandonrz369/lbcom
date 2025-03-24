@@ -1,6 +1,6 @@
 # LB Computer Help Website
 
-A modern, responsive website for LB Computer Help built with Next.js and Tailwind CSS.
+A modern, responsive website for LB Computer Help built with Next.js and Tailwind CSS. Features include client services, web tools, and admin functions.
 
 ## Getting Started
 
