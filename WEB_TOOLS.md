@@ -16,6 +16,7 @@ The web tools are accessible at `/web-tools` and include:
 8. [Domain Lookup](#domain-lookup)
 9. [Image Compressor](#image-compressor)
 10. [Security Scanner](#security-scanner)
+11. [SEO Analyzer](#seo-analyzer)
 
 ## Form Test
 
@@ -171,6 +172,31 @@ Website security vulnerability scanner.
   3. Examine individual security checks and recommendations
   4. Export results or copy recommendations for implementation
 
+## SEO Analyzer
+
+AI-powered website SEO analysis tool.
+
+- **Purpose**: Analyze websites for SEO best practices and provide actionable recommendations
+- **Features**:
+  - Comprehensive SEO check categories (critical, important, good practice)
+  - Meta tag analysis (title, description, OG tags)
+  - Content quality assessment
+  - Technical SEO evaluation
+  - Detailed scoring system (overall and by category)
+  - Keyword detection
+  - Heading structure analysis
+  - Markdown report export
+  - Filterable results by category and status
+- **Implementation**: Client-side SEO analysis with mock data generation and analytics
+- **Files**: `src/components/SeoAnalyzer.tsx`
+- **Usage**:
+  1. Enter a website URL
+  2. Review the overall SEO score and category breakdowns
+  3. Examine meta tag information and detected keywords
+  4. Review detailed SEO checks with recommendations
+  5. Filter results by category or status
+  6. Export a comprehensive markdown report
+
 ## Technical Implementation
 
 The web tools are built using:
@@ -206,4 +232,5 @@ Planned enhancements for the web tools:
 - Server-side analytics tracking
 - Real API integrations for network and security tools
 - ZIP file download for batch image compression
-- PDF report generation for security scans
+- PDF report generation for security and SEO scans
+- API integrations for more accurate SEO analysis

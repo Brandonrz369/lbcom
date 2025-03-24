@@ -11,9 +11,10 @@ import PasswordGenerator from '@/components/PasswordGenerator';
 import DomainLookup from '@/components/DomainLookup';
 import ImageCompressor from '@/components/ImageCompressor';
 import SecurityScanner from '@/components/SecurityScanner';
+import SeoAnalyzer from '@/components/SeoAnalyzer';
 
 export default function WebTools() {
-  const [activeTab, setActiveTab] = useState<'simple' | 'debug' | 'logs' | 'speed' | 'network' | 'color' | 'password' | 'domain' | 'image' | 'security'>('simple');
+  const [activeTab, setActiveTab] = useState<'simple' | 'debug' | 'logs' | 'speed' | 'network' | 'color' | 'password' | 'domain' | 'image' | 'security' | 'seo'>('simple');
   
   return (
     <div className="container mx-auto py-12 px-4">
@@ -121,6 +122,16 @@ export default function WebTools() {
             onClick={() => setActiveTab('security')}
           >
             Security
+          </button>
+          <button
+            className={`py-2 px-3 font-medium text-center text-sm md:text-base ${
+              activeTab === 'seo' 
+                ? 'text-blue-600 border-b-2 border-blue-600' 
+                : 'text-gray-500 hover:text-gray-700'
+            }`}
+            onClick={() => setActiveTab('seo')}
+          >
+            SEO
           </button>
         </div>
       </div>
@@ -271,6 +282,21 @@ export default function WebTools() {
           </div>
           
           <SecurityScanner />
+        </div>
+      )}
+      
+      {/* SEO Analyzer Tab */}
+      {activeTab === 'seo' && (
+        <div>
+          <div className="mb-8 bg-green-50 p-4 rounded-lg">
+            <h2 className="text-xl font-semibold mb-2">SEO Analyzer Tool</h2>
+            <p className="text-gray-600 mb-4">
+              Analyze any website for SEO best practices and performance.
+              Checks meta tags, content quality, technical SEO, and provides actionable recommendations.
+            </p>
+          </div>
+          
+          <SeoAnalyzer />
         </div>
       )}
     </div>
