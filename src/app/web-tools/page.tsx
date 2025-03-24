@@ -10,9 +10,10 @@ import ColorGenerator from '@/components/ColorGenerator';
 import PasswordGenerator from '@/components/PasswordGenerator';
 import DomainLookup from '@/components/DomainLookup';
 import ImageCompressor from '@/components/ImageCompressor';
+import SecurityScanner from '@/components/SecurityScanner';
 
 export default function WebTools() {
-  const [activeTab, setActiveTab] = useState<'simple' | 'debug' | 'logs' | 'speed' | 'network' | 'color' | 'password' | 'domain' | 'image'>('simple');
+  const [activeTab, setActiveTab] = useState<'simple' | 'debug' | 'logs' | 'speed' | 'network' | 'color' | 'password' | 'domain' | 'image' | 'security'>('simple');
   
   return (
     <div className="container mx-auto py-12 px-4">
@@ -110,6 +111,16 @@ export default function WebTools() {
             onClick={() => setActiveTab('image')}
           >
             Images
+          </button>
+          <button
+            className={`py-2 px-3 font-medium text-center text-sm md:text-base ${
+              activeTab === 'security' 
+                ? 'text-blue-600 border-b-2 border-blue-600' 
+                : 'text-gray-500 hover:text-gray-700'
+            }`}
+            onClick={() => setActiveTab('security')}
+          >
+            Security
           </button>
         </div>
       </div>
@@ -245,6 +256,21 @@ export default function WebTools() {
           </div>
           
           <ImageCompressor />
+        </div>
+      )}
+      
+      {/* Security Scanner Tab */}
+      {activeTab === 'security' && (
+        <div>
+          <div className="mb-8 bg-red-50 p-4 rounded-lg">
+            <h2 className="text-xl font-semibold mb-2">Website Security Scanner</h2>
+            <p className="text-gray-600 mb-4">
+              Check any website for common security vulnerabilities and best practices.
+              Analyzes HTTP headers, SSL/TLS implementation, and security configurations.
+            </p>
+          </div>
+          
+          <SecurityScanner />
         </div>
       )}
     </div>
