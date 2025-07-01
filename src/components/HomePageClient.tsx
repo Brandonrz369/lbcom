@@ -71,13 +71,11 @@ export default function HomePageClient({ services, testimonials }: HomePageClien
       {/* Hero Section */}
       <section className="relative h-screen min-h-[800px] flex items-center bg-gradient-to-r from-blue-900 via-blue-800 to-blue-700">
         <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute inset-0 bg-black opacity-30"></div>
           <div
             className="absolute inset-0 bg-cover bg-center"
             style={{
               backgroundImage: "url('/images/hero-background-new.png')",
-              mixBlendMode: "overlay",
-              opacity: 0.4,
+              opacity: 0.6,
             }}
           ></div>
           <div className="absolute inset-0 bg-gradient-to-b from-transparent to-blue-900"></div>
@@ -689,12 +687,12 @@ export default function HomePageClient({ services, testimonials }: HomePageClien
               <div className="bg-gray-50 p-6 rounded-lg shadow-md h-full flex flex-col">
                  <svg className="w-12 h-12 mx-auto mb-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" /></svg>
                 <h3 className="text-xl font-semibold mb-2">Transparent Pricing</h3>
-                 <ul className="text-gray-600 space-y-1 text-left px-4 flex-grow">
+                 <ul className="text-gray-800 space-y-1 text-left px-4 flex-grow">
                   <li><strong>Diagnostic Assessment:</strong> $99 flat fee for computer issue diagnostics</li>
                   <li><strong>Hourly Support Rates:</strong> $125/hour for computer assistance, configuration, and optimization services</li>
                   <li><strong>IT Consultation Services:</strong> $150/hour for expert IT consulting and strategy</li>
                 </ul>
-                 <p className="text-gray-500 text-sm mt-4">Upfront, transparent pricing. Diagnostic assessment for a flat fee of $99. Hourly rates for assistance, configuration, and optimization at $125/hour. IT consultation at $150/hour. No hidden fees, just clear, competitive rates for Long Beach IT services.</p>
+                 <p className="text-gray-700 text-sm mt-4">Upfront, transparent pricing. Diagnostic assessment for a flat fee of $99. Hourly rates for assistance, configuration, and optimization at $125/hour. IT consultation at $150/hour. No hidden fees, just clear, competitive rates for Long Beach IT services.</p>
               </div>
             </FadeIn>
 
@@ -703,7 +701,7 @@ export default function HomePageClient({ services, testimonials }: HomePageClien
                <div className="bg-gray-50 p-6 rounded-lg shadow-md h-full flex flex-col">
                  <svg className="w-12 h-12 mx-auto mb-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2" /></svg>
                 <h3 className="text-xl font-semibold mb-2">Local & Certified</h3>
-                 <div className="text-gray-600 flex-grow">
+                 <div className="text-gray-800 flex-grow">
                    <p>Your local Long Beach computer experts.</p>
                    <p>Located at 927 Magnolia Ave #2, Long Beach, CA 90813.</p>
                    <p>Call us at (213) 349-6790 for certified and insured IT support.</p>
@@ -717,7 +715,7 @@ export default function HomePageClient({ services, testimonials }: HomePageClien
                <div className="bg-gray-50 p-6 rounded-lg shadow-md h-full flex flex-col">
                  <svg className="w-12 h-12 mx-auto mb-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
                 <h3 className="text-xl font-semibold mb-2">Independent Service Provider</h3>
-                <p className="text-gray-600 text-sm flex-grow">
+                <p className="text-gray-800 text-sm flex-grow">
                   Independent and unbiased IT service provider. LB Computer Help offers expert tech assistance and guidance, independent of any hardware or software vendor affiliations. We provide unbiased recommendations based on industry best practices and tailored solutions for your specific needs in Long Beach.
                 </p>
                </div>
