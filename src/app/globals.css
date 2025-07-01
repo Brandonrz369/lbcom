@@ -141,7 +141,7 @@ html {
 
 body {
   background: var(--background);
-  color: var(--foreground);
+  color: var(--gray-800);
   font-family: var(--font-sans, Arial, Helvetica, sans-serif);
   overflow-x: hidden;
 }
@@ -149,7 +149,6 @@ body {
 .hero-title {
   font-weight: 800;
   color: white;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
   letter-spacing: -1px;
   position: relative;
   display: inline-block;
@@ -181,8 +180,6 @@ body {
   overflow: hidden;
   padding: 6px 12px;
   border-radius: 4px;
-  background: rgba(0, 0, 0, 0.5);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   width: 100%;
   display: inline-block;
   white-space: nowrap;
@@ -198,11 +195,6 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background: radial-gradient(
-    circle at center,
-    transparent 0%,
-    rgba(0, 0, 0, 0.3) 100%
-  );
   pointer-events: none;
 }
 

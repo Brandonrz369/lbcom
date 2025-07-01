@@ -95,14 +95,14 @@ export default function HomePageClient({ services, testimonials }: HomePageClien
                   <br />
                   <TypewriterEffect
                     texts={[
-                      "Expert IT Support in Long Beach",
-                      "Computer Services for Businesses & Homes",
-                      "Reliable Network Solutions",
+                      "Expert IT Support in Long Beach\u00A0",
+                      "Computer Services for Businesses & Homes\u00A0",
+                      "Reliable Network Solutions\u00A0",
                     ]}
-                    className="text-3xl md:text-4xl lg:text-5xl text-blue-200"
+                    className="text-3xl md:text-4xl lg:text-5xl text-white"
                   />
                 </h1>
-                <p className="text-lg md:text-xl opacity-90 mb-8">
+                <p className="text-lg md:text-xl text-gray-200 mb-8">
                   Your trusted local provider for expert IT support, computer services,
                   and network solutions in Long Beach and Los Angeles County. Fast, reliable, and affordable tech help for homes and businesses.
                 </p>
