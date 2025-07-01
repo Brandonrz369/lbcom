@@ -104,7 +104,7 @@ export default function TypewriterEffect({
 
   return (
     <span ref={ref} className={className}>
-      {displayText}
+      <span style={{ paddingRight: '0.5em' }}>{displayText}</span>
       <span className={cursorClassName}>&nbsp;</span>
     </span>
   );
