@@ -1,0 +1,45 @@
+{
+  "aggregate": {
+    "ratingValue": 4.9,
+    "reviewCount": 138
+  },
+  "leaveReview": {
+    "googleUrl": "https://www.google.com/maps/search/?api=1&amp;query=LB+Computer+Help",
+    "yelpUrl": "https://www.yelp.com/search?find_desc=LB+Computer+Help"
+  },
+  "testimonials": [
+    {
+      "source": "google",
+      "rating": 5,
+      "text": "Fast, honest, and fixed my PC the same day. Highly recommended!",
+      "author": "J. Martinez",
+      "date": "2024-11-12",
+      "avatarUrl": "/images/testimonials/client1.jpg",
+      "sourceUrl": "https://www.google.com/maps",
+      "featured": true,
+      "visible": true
+    },
+    {
+      "source": "yelp",
+      "rating": 5,
+      "text": "Responsive and very knowledgeable. Pricing was transparent.",
+      "author": "A. Nguyen",
+      "date": "2025-01-05",
+      "avatarUrl": "/images/testimonials/client2.jpg",
+      "sourceUrl": "https://www.yelp.com/",
+      "featured": true,
+      "visible": true
+    },
+    {
+      "source": "google",
+      "rating": 5,
+      "text": "Recovered our office data in one day. Lifesaver!",
+      "author": "S. Patel",
+      "date": "2024-10-02",
+      "avatarUrl": "/images/testimonials/client3.jpg",
+      "sourceUrl": "https://www.google.com/maps",
+      "featured": false,
+      "visible": true
+    }
+  ]
+}
