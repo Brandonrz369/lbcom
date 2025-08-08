@@ -257,9 +257,12 @@ export default function Navigation() {
         </div>
       )}
 
-      <div className={`${navBackgroundColor()} py-2`}>
+      <div className={`${navBackgroundColor()} py-3 md:py-4`}>
         <div className="container mx-auto px-4 flex justify-between items-center">
-          <Link href="/" className={`font-bold text-xl ${textColor()}`}>
+          <Link
+            href="/"
+            className={`font-bold text-lg sm:text-xl ${textColor()} whitespace-nowrap flex-shrink-0`}
+          >
             LB Computer Help
           </Link>
           <nav className="hidden md:flex items-center gap-6">
