@@ -2,6 +2,8 @@
 
 A modern, responsive website for LB Computer Help built with Next.js and Tailwind CSS.
 
+This minor update triggers a new Vercel deployment.
+
 ## Getting Started
 
 These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes, as well as deploy it to production.
