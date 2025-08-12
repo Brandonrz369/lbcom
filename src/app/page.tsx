@@ -133,12 +133,13 @@ function ServiceJsonLd() {
 export default function Home() {
   // Data defined in Server Component
   const testimonials: Testimonial[] = [
-     {
+    {
       text: "I am beyond impressed with the service I received from Brandon at LB Computer Help. He went above and beyond to find the perfect router for our office that could prioritize our fax machine and phones. Since the new setup, we've already noticed a significant improvement in call quality.",
       name: "Alondra S.",
       role: "Office Manager",
       image: "/images/testimonials/client1.jpg",
       source: "google",
+      rating: 5,
     },
     {
       text: "As a boutique law firm handling sensitive client information daily, finding reliable IT support is critical. When we experienced a server failure before a major trial, Brandon responded immediately. The recovery was completed ahead of schedule, allowing our legal team to access critical documents well before our court deadline.",
@@ -146,6 +147,7 @@ export default function Home() {
       role: "Visionary Law Group",
       image: "/images/testimonials/client2.jpg",
       source: "yelp",
+      rating: 5,
     },
     {
       text: "Brandon was super kind and helpful! He fixed my printer issues which I was having for about 3 weeks in just 30 minutes! He not only was super helpful but also walked me through the process so I can fix it on my own next time.",
@@ -153,6 +155,7 @@ export default function Home() {
       role: "Residential Client",
       image: "/images/testimonials/client3.jpg",
       source: "facebook",
+      rating: 5,
     },
     {
       text: "I had such a great experience with LB Computer Help! My laptop was running super slow, and I needed it fixed ASAP. They were able to diagnose the issue quickly and optimize my system, making it run like new again. The service was fast, professional, and hassle-free.",
@@ -160,12 +163,14 @@ export default function Home() {
       role: "Small Business Owner",
       image: "/images/testimonials/client4.jpg",
       source: "nextdoor",
+      rating: 5,
     },
     {
       text: "I'm so impressed with their data recovery service. After my hard drive failed, I thought all my files were gone for good, but they managed to recover everything quickly. I'm so relieved to have my data back.",
       name: "Luke T.",
       role: "Photographer",
       source: "thumbtack",
+      rating: 5,
     },
   ];
 
