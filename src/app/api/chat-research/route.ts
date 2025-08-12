@@ -65,7 +65,7 @@ export async function POST(req: NextRequest) {
   // Check rate limit
   // Correct way to get IP in Vercel Edge/Node.js environments
   const ip = req.headers.get('x-forwarded-for') ?? req.headers.get('x-real-ip') ?? '127.0.0.1';
-  const { success, limit, remaining, reset } = await ratelimit.limit(ip);
+  const { success } = await ratelimit.limit(ip);
 
   if (!success) {
     return NextResponse.json({ error: 'Rate limit exceeded' }, { status: 429 });
@@ -74,7 +74,6 @@ export async function POST(req: NextRequest) {
   try {
     const body = await req.json();
     const userMessage = body.message;
-    const history = body.history || []; // Expecting history from frontend
 
     if (!userMessage || typeof userMessage !== 'string') {
       return NextResponse.json({ error: 'Invalid message format' }, { status: 400 });

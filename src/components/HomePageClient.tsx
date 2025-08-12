@@ -41,10 +41,25 @@ export default function HomePageClient({ services, testimonials }: HomePageClien
   const [serviceFilter, setServiceFilter] = useState("all");
   const [isAssessmentOpen, setIsAssessmentOpen] = useState(false);
   const [formSubmitted, setFormSubmitted] = useState(false); // State for submission feedback
+  const [navHeight, setNavHeight] = useState(0);
 
   // Handle page load animation
   useEffect(() => {
     setIsLoaded(true);
+  }, []);
+
+  // Measure navigation height to offset hero section
+  useEffect(() => {
+    const updateHeight = () => {
+      const nav = document.getElementById("main-navigation");
+      if (nav) {
+        setNavHeight(nav.offsetHeight);
+      }
+    };
+
+    updateHeight();
+    window.addEventListener("resize", updateHeight);
+    return () => window.removeEventListener("resize", updateHeight);
   }, []);
 
   // Filter services based on selected category
@@ -69,7 +84,10 @@ export default function HomePageClient({ services, testimonials }: HomePageClien
       className={`min-h-screen font-sans transition-opacity duration-1000 ${isLoaded ? "opacity-100" : "opacity-0"}`}
     >
       {/* Hero Section */}
-      <section className="relative h-screen min-h-[800px] flex items-center bg-gradient-to-r from-blue-900 via-blue-800 to-blue-700">
+      <section
+        className="relative min-h-screen md:min-h-[800px] flex items-start pb-16 bg-gradient-to-r from-blue-900 via-blue-800 to-blue-700"
+        style={{ paddingTop: navHeight + 20 }}
+      >
         <div className="absolute inset-0 overflow-hidden">
           <div
             className="absolute inset-0 bg-cover bg-center"
@@ -87,17 +105,18 @@ export default function HomePageClient({ services, testimonials }: HomePageClien
             <div className="text-white">
               <FadeIn direction="up">
                 <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-5">
-                  <span className="text-white">LB</span>
-                  <span className="text-orange-400"> Computer</span>
-                  <span className="text-white"> Help</span>
-                  <br />
+                  <span className="block whitespace-nowrap">
+                    <span className="text-white">LB</span>
+                    <span className="text-orange-400"> Computer</span>
+                    <span className="text-white"> Help</span>
+                  </span>
                   <TypewriterEffect
                     texts={[
                       "Expert IT Support in Long Beach\u00A0",
                       "Computer Services for Businesses & Homes\u00A0",
                       "Reliable Network Solutions\u00A0",
                     ]}
-                    className="text-3xl md:text-4xl lg:text-5xl text-white"
+                    className="block mt-2 text-3xl md:text-4xl lg:text-5xl text-white"
                   />
                 </h1>
                 <p className="text-lg md:text-xl text-gray-200 mb-8">
