@@ -1,6 +1,8 @@
-const withBundleAnalyzer = require('@next/bundle-analyzer')({
+import bundleAnalyzer from '@next/bundle-analyzer';
+
+const withBundleAnalyzer = bundleAnalyzer({
   enabled: process.env.ANALYZE === 'true',
-})
+});
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
@@ -20,7 +22,7 @@ const nextConfig = {
   },
   // Add this to allow cross-origin requests during development from your local network IP
   experimental: {
-    allowedDevOrigins: ["http://10.168.0.3:3000"],
+    allowedDevOrigins: ['http://10.168.0.3:3000'],
   },
   // Disable ESLint during builds as it conflicts with flat config
   eslint: {
@@ -28,4 +30,4 @@ const nextConfig = {
   },
 };
 
-module.exports = withBundleAnalyzer(nextConfig);
+export default withBundleAnalyzer(nextConfig);

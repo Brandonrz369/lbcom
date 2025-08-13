@@ -1,7 +1,6 @@
 "use client"; // Mark this as a Client Component
 
 import { useState, useEffect } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import FadeIn from "@/components/FadeIn";
 import FloatingShapes from "@/components/FloatingShapes";
@@ -10,7 +9,6 @@ import ServiceCard from "@/components/ServicesCard";
 import TestimonialCarousel, {
   Testimonial,
 } from "@/components/TestimonialCarousel";
-import RevealText from "@/components/RevealText";
 
 // Declare gtag_report_conversion function for TypeScript
 declare global {
@@ -31,12 +29,13 @@ export default function ResidentialBusinessClientPage(/* props: ResidentialBusin
 
   // Selected Safe Testimonials
   const testimonials: Testimonial[] = [
-     {
+    {
       text: "I am beyond impressed with the service I received from Brandon at LB Computer Help. He went above and beyond to find the perfect router for our office that could prioritize our fax machine and phones. Since the new setup, we've already noticed a significant improvement in call quality.",
       name: "Alondra S.",
       role: "Office Manager",
       image: "/images/testimonials/client1.jpg",
       source: "google",
+      rating: 5,
     },
     {
       text: "I had such a great experience with LB Computer Help! My laptop was running super slow, and I needed it fixed ASAP. They were able to diagnose the issue quickly and optimize my system, making it run like new again. The service was fast, professional, and hassle-free.",
@@ -44,6 +43,7 @@ export default function ResidentialBusinessClientPage(/* props: ResidentialBusin
       role: "Small Business Owner",
       image: "/images/testimonials/client4.jpg",
       source: "nextdoor",
+      rating: 5,
     },
     // Add more compliant testimonials if available
   ];

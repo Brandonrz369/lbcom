@@ -1,5 +1,4 @@
 // This is now a Server Component by default (no "use client")
-import Link from "next/link"; // Keep Link if needed for static parts
 import BlogListClient from "@/components/BlogListClient"; // Import the Client Component
 import { getSortedPostsData } from "@/lib/posts"; // Import the server-side data fetching function
 
