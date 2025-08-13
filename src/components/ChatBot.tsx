@@ -131,9 +131,9 @@ export default function ChatBot() {
       contact:
         "The best ways to contact us are by phone at (213) 349-6790 or email at support@lbcomputerhelp.com. For urgent matters, calling is recommended.",
       location:
-        "We're located at 927 Magnolia Ave #2, Long Beach, CA 90813. We also offer on-site services throughout Long Beach and Los Angeles County.",
+        "We're located at 3645 E Fourth St Ste A, Long Beach, CA 90814. We also offer on-site services throughout Long Beach and Los Angeles County.",
       address:
-        "Our office is located at 927 Magnolia Ave #2, Long Beach, CA 90813. We're easily accessible from downtown Long Beach and provide service throughout the LA metro area.",
+        "Our office is located at 3645 E Fourth St Ste A, Long Beach, CA 90814. We're easily accessible from downtown Long Beach and provide service throughout the LA metro area.",
       hours:
         "Our business hours are Monday-Friday 6AM-6PM and Saturday 6AM-6PM. We're closed on Sundays.",
     };
@@ -333,7 +333,7 @@ export default function ChatBot() {
           lowerInput.includes("where")
         ) {
           errorMessage =
-            "While I'm having some technical difficulties, I can tell you that we're located at 927 Magnolia Ave #2, Long Beach, CA 90813. We also offer on-site services throughout Long Beach and LA County.";
+            "While I'm having some technical difficulties, I can tell you that we're located at 3645 E Fourth St Ste A, Long Beach, CA 90814. We also offer on-site services throughout Long Beach and LA County.";
         } else if (
           lowerInput.includes("appointment") ||
           lowerInput.includes("schedule") ||

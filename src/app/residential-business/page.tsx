@@ -25,10 +25,10 @@ function ResidentialBusinessJsonLd() {
     priceRange: "$$ - $$$", // General price range indication
     address: {
       "@type": "PostalAddress",
-      streetAddress: "927 Magnolia Ave #2",
+      streetAddress: "3645 E Fourth St Ste A",
       addressLocality: "Long Beach",
       addressRegion: "CA",
-      postalCode: "90813",
+      postalCode: "90814",
       addressCountry: "US",
     },
     openingHoursSpecification: [

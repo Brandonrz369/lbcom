@@ -121,8 +121,8 @@ export default function ContactPageClient() {
                     </div>
                     <div>
                       <h3 className="text-lg font-medium mb-1">Address</h3>
-                      <p className="text-gray-600 mb-1">927 Magnolia Ave #2</p>
-                      <p className="text-gray-600 mb-1">Long Beach, CA 90813</p>
+                      <p className="text-gray-600 mb-1">3645 E Fourth St Ste A</p>
+                      <p className="text-gray-600 mb-1">Long Beach, CA 90814</p>
                       <p className="text-sm text-gray-500">Visit our <strong>Long Beach</strong> office by appointment for device drop-off or consultation</p>
                     </div>
                   </div>
@@ -286,7 +286,7 @@ export default function ContactPageClient() {
               >
                 <iframe
                   className="absolute top-0 left-0 w-full h-full"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3316.2292133042263!2d-118.18417882391858!3d33.783694977244645!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dd31475bed32a5%3A0xcb59ca312167550!2s927%20Magnolia%20Ave%2C%20Long%20Beach%2C%20CA%2090813!5e0!3m2!1sen!2sus!4v1710842232461!5m2!1sen!2sus"
+                  src="https://www.google.com/maps?q=3645+E+Fourth+St+Ste+A,+Long+Beach,+CA+90814&output=embed"
                   width="600"
                   height="450"
                   style={{ border: 0 }}

@@ -17,7 +17,7 @@ export default function FooterTrustBadges() {
       <div>
         <h4 className="font-semibold text-gray-100 mb-2">Local & Certified</h4>
         <p className="text-gray-400">LB Computer Help</p>
-        <p className="text-gray-400">927 Magnolia Ave #2, Long Beach, CA 90813</p>
+        <p className="text-gray-400">3645 E Fourth St Ste A, Long Beach, CA 90814</p>
         <p className="text-gray-400">Serving Long Beach Since 2018</p>
         <p className="text-gray-400 mt-1 font-medium">Fully Insured</p>
         {/* Add Certifications */}

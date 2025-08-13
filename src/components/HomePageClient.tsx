@@ -703,7 +703,7 @@ export default function HomePageClient({ services, testimonials }: HomePageClien
                 <h3 className="text-xl font-semibold mb-2">Local & Certified</h3>
                  <div className="text-gray-800 flex-grow">
                    <p>Your local Long Beach computer experts.</p>
-                   <p>Located at 927 Magnolia Ave #2, Long Beach, CA 90813.</p>
+                   <p>Located at 3645 E Fourth St Ste A, Long Beach, CA 90814.</p>
                    <p>Call us at (213) 349-6790 for certified and insured IT support.</p>
                    <p className="mt-2">Proudly serving the Long Beach community since 2018.</p>
                  </div>
@@ -802,9 +802,9 @@ export default function HomePageClient({ services, testimonials }: HomePageClien
                     <div>
                       <h3 className="font-semibold text-lg">Address</h3>
                       <p className="text-gray-300">
-                        927 Magnolia Ave #2
+                        3645 E Fourth St Ste A
                         <br />
-                        Long Beach, CA 90813
+                        Long Beach, CA 90814
                       </p>
                     </div>
                   </div>

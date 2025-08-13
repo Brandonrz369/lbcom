@@ -61,11 +61,11 @@ export default function FooterContactInfo() {
           </svg>
           <div>
             <span className="text-gray-300">
-              927 Magnolia Ave #2
+              3645 E Fourth St Ste A
             </span>
             <br />
             <span className="text-gray-300">
-              Long Beach, CA 90813
+              Long Beach, CA 90814
             </span>
           </div>
         </li>
