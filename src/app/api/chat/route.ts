@@ -4,7 +4,7 @@ import { NextRequest, NextResponse } from "next/server";
 const COMPANY_CONTEXT = `
 About LB Computer Help:
 - LB Computer Help is an IT support and computer services company in Long Beach, CA {/* Changed */}
-- Address: 927 Magnolia Ave #2, Long Beach, CA 90813
+- Address: 3645 E Fourth St Ste A, Long Beach, CA 90814
 - Phone: (213) 349-6790
 - Email: support@lbcomputerhelp.com
 - Hours: Monday-Friday 6AM-6PM, Saturday 6AM-6PM, Sunday Closed
@@ -233,7 +233,7 @@ function getMockResponse(input: string) {
     lowerInput.includes("address") ||
     lowerInput.includes("where")
   ) {
-    return "We're located at 927 Magnolia Ave #2, Long Beach, CA 90813. We also offer on-site services throughout Long Beach and Los Angeles County.";
+    return "We're located at 3645 E Fourth St Ste A, Long Beach, CA 90814. We also offer on-site services throughout Long Beach and Los Angeles County.";
   }
 
   if (lowerInput.includes("hours") || lowerInput.includes("open")) {
