@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
-import Link from "next/link";
 import Script from "next/script"; // Import the Script component
 import { Analytics } from "@vercel/analytics/react";
-import Navigation from "@/components/Navigation";
+import UtilityBar from "@/components/UtilityBar";
+import MainNav from "@/components/MainNav";
 import ChatBot from "@/components/ChatBot";
 import FooterMain from "@/components/footer/FooterMain"; // Import the new main footer component
 import { FormLoggerProvider } from "@/components/FormLogger";
@@ -74,8 +74,14 @@ export default function RootLayout({
           }}
         />
         <FormLoggerProvider>
-          <Navigation />
-          <main className="min-h-screen pt-20">{children}</main>
+          <header
+            id="site-header"
+            className="sticky top-0 z-50 bg-white/80 backdrop-blur"
+          >
+            <UtilityBar />
+            <MainNav />
+          </header>
+          <main className="min-h-screen">{children}</main>
 
           <ChatBot />
 
