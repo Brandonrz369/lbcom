@@ -381,7 +381,7 @@ export default function HomePageClient({ services, testimonials }: HomePageClien
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-20 px-4 bg-gray-50">
+      <section id="services" className="py-20 px-4 bg-gray-50 scroll-mt-20">
         <div className="container mx-auto">
           <div className="text-center mb-12">
             <FadeIn direction="up">
@@ -470,7 +470,7 @@ export default function HomePageClient({ services, testimonials }: HomePageClien
       </section>
 
       {/* About Us Section */}
-      <section id="about" className="py-20 px-4">
+      <section id="about" className="py-20 px-4 scroll-mt-20">
         <div className="container mx-auto">
           <div className="flex flex-col lg:flex-row gap-12 items-center">
             <div className="lg:w-1/2">
@@ -668,7 +668,7 @@ export default function HomePageClient({ services, testimonials }: HomePageClien
       </section>
 
        {/* Trust & Transparency Section */}
-      <section id="trust" className="py-20 px-4 bg-white">
+      <section id="trust" className="py-20 px-4 bg-white scroll-mt-20">
         <div className="container mx-auto">
           <div className="text-center mb-12">
             <FadeIn direction="up">
@@ -725,7 +725,7 @@ export default function HomePageClient({ services, testimonials }: HomePageClien
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="py-20 px-4 bg-gray-900 text-white">
+      <section id="contact" className="py-20 px-4 bg-gray-900 text-white scroll-mt-20">
         <div className="container mx-auto">
           <div className="text-center mb-12">
             <FadeIn direction="up">

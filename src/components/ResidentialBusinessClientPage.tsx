@@ -1,7 +1,6 @@
 "use client"; // Mark this as a Client Component
 
 import { useState, useEffect } from "react";
-import Image from "next/image";
 import Link from "next/link";
 import FadeIn from "@/components/FadeIn";
 import FloatingShapes from "@/components/FloatingShapes";
@@ -10,7 +9,6 @@ import ServiceCard from "@/components/ServicesCard";
 import TestimonialCarousel, {
   Testimonial,
 } from "@/components/TestimonialCarousel";
-import RevealText from "@/components/RevealText";
 
 // Declare gtag_report_conversion function for TypeScript
 declare global {
@@ -172,7 +170,7 @@ export default function ResidentialBusinessClientPage(/* props: ResidentialBusin
       </section>
 
       {/* Services Section - Revised */}
-      <section id="services" className="py-20 px-4 bg-gray-50">
+      <section id="services" className="py-20 px-4 bg-gray-50 scroll-mt-20">
         <div className="container mx-auto">
           <div className="text-center mb-12">
             <FadeIn direction="up">
@@ -201,7 +199,7 @@ export default function ResidentialBusinessClientPage(/* props: ResidentialBusin
       </section>
 
        {/* Trust & Transparency Section */}
-      <section id="trust" className="py-20 px-4 bg-white">
+      <section id="trust" className="py-20 px-4 bg-white scroll-mt-20">
         <div className="container mx-auto">
           <div className="text-center mb-12">
             <FadeIn direction="up">
@@ -276,7 +274,7 @@ export default function ResidentialBusinessClientPage(/* props: ResidentialBusin
       </section>
 
       {/* Contact Section - Revised */}
-      <section id="contact" className="py-20 px-4 bg-gray-900 text-white">
+      <section id="contact" className="py-20 px-4 bg-gray-900 text-white scroll-mt-20">
          <div className="container mx-auto">
           <div className="text-center mb-12">
             <FadeIn direction="up">
