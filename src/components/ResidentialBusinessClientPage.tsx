@@ -237,7 +237,7 @@ export default function ResidentialBusinessClientPage(/* props: ResidentialBusin
                 <h3 className="text-xl font-semibold mb-2">Local & Certified</h3>
                  <div className="text-gray-600 flex-grow">
                    <p>LB Computer Help</p>
-                   <p>927 Magnolia Ave #2, Long Beach, CA 90813</p>
+                   <p>3645 E Fourth St Ste A, Long Beach, CA 90814</p>
                    <p>(213) 349-6790</p>
                    <p className="mt-2">Serving Long Beach Since 2018</p>
                    {/* Add Certification Badges/Text Here if applicable */}
@@ -313,7 +313,7 @@ export default function ResidentialBusinessClientPage(/* props: ResidentialBusin
                        <div className="flex-shrink-0 bg-blue-600 rounded-full p-3">
                          <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-white" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" /></svg>
                        </div>
-                       <div><h3 className="font-semibold text-lg">Address</h3><p className="text-gray-300">927 Magnolia Ave #2<br />Long Beach, CA 90813</p></div>
+                       <div><h3 className="font-semibold text-lg">Address</h3><p className="text-gray-300">3645 E Fourth St Ste A<br />Long Beach, CA 90814</p></div>
                      </div>
                      {/* Hours */}
                      <div className="flex items-start gap-4">
