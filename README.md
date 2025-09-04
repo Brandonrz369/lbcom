@@ -167,4 +167,3 @@ yarn build
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 - [Framer Motion Documentation](https://www.framer.com/motion/)
 
-Deployment: initialize prod pipeline
