@@ -125,6 +125,24 @@ export default function Navigation() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  // Expose combined navigation and emergency banner height as a CSS variable
+  useEffect(() => {
+    const updateOffset = () => {
+      const nav = document.getElementById("navbar");
+      const emergency = document.getElementById("emergency-banner");
+      const totalHeight =
+        (nav?.offsetHeight || 0) + (emergency?.offsetHeight || 0);
+      document.documentElement.style.setProperty(
+        "--nav-total-height",
+        `${totalHeight}px`
+      );
+    };
+
+    updateOffset();
+    window.addEventListener("resize", updateOffset);
+    return () => window.removeEventListener("resize", updateOffset);
+  }, [isEmergencyVisible]);
+
   // Force consistent style regardless of page
   const navBackgroundColor = () => {
     if (isHomePage) {
@@ -180,9 +198,15 @@ export default function Navigation() {
   /* Admin status is already handled in the component */
 
   return (
-    <div className="fixed top-0 left-0 right-0 z-40 transition-all duration-300">
+    <div
+      id="main-navigation"
+      className="fixed top-0 left-0 right-0 z-40 transition-all duration-300"
+    >
       {isEmergencyVisible && (
-        <div className="bg-gradient-to-r from-blue-800 via-blue-700 to-blue-600 py-1">
+        <div
+          id="emergency-banner"
+          className="bg-gradient-to-r from-blue-800 via-blue-700 to-blue-600 py-1"
+        >
           <div className="container mx-auto px-4">
             <div className="flex items-center justify-between">
               <div className="flex items-center">
@@ -257,9 +281,12 @@ export default function Navigation() {
         </div>
       )}
 
-      <div className={`${navBackgroundColor()} py-2`}>
+      <div id="navbar" className={`${navBackgroundColor()} py-3 md:py-4`}>
         <div className="container mx-auto px-4 flex justify-between items-center">
-          <Link href="/" className={`font-bold text-xl ${textColor()}`}>
+          <Link
+            href="/"
+            className={`font-bold text-lg sm:text-xl ${textColor()} whitespace-nowrap flex-shrink-0`}
+          >
             LB Computer Help
           </Link>
           <nav className="hidden md:flex items-center gap-6">

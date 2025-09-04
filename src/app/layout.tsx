@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
-import Link from "next/link";
 import Script from "next/script"; // Import the Script component
 import { Analytics } from "@vercel/analytics/react";
 import Navigation from "@/components/Navigation";
@@ -75,7 +74,12 @@ export default function RootLayout({
         />
         <FormLoggerProvider>
           <Navigation />
-          <main className="min-h-screen pt-20">{children}</main>
+          <main
+            className="min-h-screen"
+            style={{ paddingTop: "var(--nav-total-height, 0px)" }}
+          >
+            {children}
+          </main>
 
           <ChatBot />
 
