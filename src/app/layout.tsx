@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
-import Link from "next/link";
 import Script from "next/script"; // Import the Script component
 import { Analytics } from "@vercel/analytics/react";
 import Navigation from "@/components/Navigation";
@@ -86,7 +85,7 @@ export default function RootLayout({
         {/* Google tag (gtag.js) */}
         <Script
           strategy="afterInteractive"
-          src="https://www.googletagmanager.com/gtag/js?id=AW-16853780718"
+          src="https://www.googletagmanager.com/gtag/js?id=G-K4WMP86TC2"
         />
         {/* Seobility Verification Meta Tag */}
         <meta name="seobility" content="2c1caf48b548cfc6f9a4828c80f1c74a" />
@@ -95,6 +94,7 @@ export default function RootLayout({
             window.dataLayer = window.dataLayer || [];
             function gtag(){dataLayer.push(arguments);}
             gtag('js', new Date());
+            gtag('config', 'G-K4WMP86TC2');
             gtag('config', 'AW-16853780718');
           `}
         </Script>
@@ -115,15 +115,6 @@ export default function RootLayout({
               });
               return false;
             }
-          `}
-        </Script>
-        {/* Google Analytics 4 (GA4) */}
-        <Script id="google-analytics-4" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-C7LHNFKCEG');
           `}
         </Script>
         <Analytics />
