@@ -69,7 +69,7 @@ export default function HomePageClient({ services, testimonials }: HomePageClien
       className={`min-h-screen font-sans transition-opacity duration-1000 ${isLoaded ? "opacity-100" : "opacity-0"}`}
     >
       {/* Hero Section */}
-      <section className="relative h-screen min-h-[800px] flex items-center bg-gradient-to-r from-blue-900 via-blue-800 to-blue-700">
+      <section className="header-offset relative h-screen min-h-[800px] flex items-center bg-gradient-to-r from-blue-900 via-blue-800 to-blue-700">
         <div className="absolute inset-0 overflow-hidden">
           <div
             className="absolute inset-0 bg-cover bg-center"

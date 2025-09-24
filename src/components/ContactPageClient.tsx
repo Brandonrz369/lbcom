@@ -67,7 +67,7 @@ export default function ContactPageClient() {
       className={`min-h-screen bg-background text-foreground font-sans transition-opacity duration-1000 ${isLoaded ? "opacity-100" : "opacity-0"}`}
     >
       {/* Contact Banner */}
-      <div className="relative py-24 bg-gradient-to-r from-blue-800 to-blue-600 text-white">
+      <div className="header-offset relative py-24 bg-gradient-to-r from-blue-800 to-blue-600 text-white">
         <div className="absolute inset-0 bg-black opacity-30"></div>
         <div
           className="absolute inset-0 bg-cover bg-center"

@@ -111,7 +111,7 @@ export default function ResidentialBusinessClientPage(/* props: ResidentialBusin
       className={`min-h-screen font-sans transition-opacity duration-1000 ${isLoaded ? "opacity-100" : "opacity-0"}`}
     >
       {/* Hero Section - Revised */}
-      <section className="relative h-[70vh] min-h-[600px] flex items-center bg-gradient-to-r from-blue-900 via-blue-800 to-blue-700">
+      <section className="header-offset relative h-[70vh] min-h-[600px] flex items-center bg-gradient-to-r from-blue-900 via-blue-800 to-blue-700">
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute inset-0 bg-black opacity-30"></div>
            <div
