@@ -69,7 +69,10 @@ export default function HomePageClient({ services, testimonials }: HomePageClien
       className={`min-h-screen font-sans transition-opacity duration-1000 ${isLoaded ? "opacity-100" : "opacity-0"}`}
     >
       {/* Hero Section */}
-      <section className="relative h-screen min-h-[800px] flex items-center bg-gradient-to-r from-blue-900 via-blue-800 to-blue-700">
+      <section
+        id="hero"
+        className="relative h-screen min-h-[800px] flex items-center bg-gradient-to-r from-blue-900 via-blue-800 to-blue-700"
+      >
         <div className="absolute inset-0 overflow-hidden">
           <div
             className="absolute inset-0 bg-cover bg-center"
@@ -93,16 +96,15 @@ export default function HomePageClient({ services, testimonials }: HomePageClien
                   <br />
                   <TypewriterEffect
                     texts={[
-                      "Expert IT Support in Long Beach\u00A0",
-                      "Computer Services for Businesses & Homes\u00A0",
-                      "Reliable Network Solutions\u00A0",
+                      "On-Site IT Support in Anaheim\u00A0",
+                      "Computer Help for Homes & Businesses\u00A0",
+                      "Serving North Orange County\u00A0",
                     ]}
                     className="text-3xl md:text-4xl lg:text-5xl text-white"
                   />
                 </h1>
                 <p className="text-lg md:text-xl text-gray-200 mb-8">
-                  Your trusted local provider for expert IT support, computer services,
-                  and network solutions in Long Beach and Los Angeles County. Fast, reliable, and affordable tech help for homes and businesses.
+                  On-site computer repair and IT support for residential and business clients across Anaheim and North Orange County. No walk-ins—our certified technicians come to you with fast, reliable service.
                 </p>
               </FadeIn>
 
@@ -234,7 +236,7 @@ export default function HomePageClient({ services, testimonials }: HomePageClien
                         ))}
                       </div>
                       <p className="text-sm text-gray-300">
-                        Trusted by 200+ businesses in Long Beach
+                        Trusted by 200+ clients across Anaheim & North OC
                       </p>
                     </div>
                   </div>
@@ -390,8 +392,8 @@ export default function HomePageClient({ services, testimonials }: HomePageClien
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
                 From hardware assistance to managed IT solutions, we provide
-                comprehensive tech services for businesses and individuals in
-                Long Beach.
+                comprehensive tech services for homes and businesses across
+                Anaheim and North Orange County.
               </p>
             </FadeIn>
 
@@ -480,7 +482,7 @@ export default function HomePageClient({ services, testimonials }: HomePageClien
                   <div className="relative overflow-hidden rounded-2xl shadow-xl">
                     <Image
                       src="/images/team/technician1.jpg"
-                      alt="LB Computer Help Team providing IT support in Long Beach"
+                      alt="LB Computer Help team providing on-site IT support in Anaheim"
                       width={600}
                       height={400}
                       className="w-full h-auto"
@@ -497,13 +499,13 @@ export default function HomePageClient({ services, testimonials }: HomePageClien
                 </h2>
                 <div className="prose prose-lg text-gray-600 max-w-none">
                   <p>
-                    Since 2018, LB Computer Help has been the go-to provider for comprehensive IT solutions in Long Beach and Los Angeles County. We offer a wide range of services, including computer repair, network setup, data recovery, and cybersecurity solutions, tailored to meet the needs of both businesses and individuals.
+                    Founded in Long Beach and now proudly based in Anaheim, LB Computer Help delivers comprehensive IT solutions across North Orange County. We handle computer repair, network setup, data recovery, and cybersecurity for residential and commercial clients that rely on responsive, on-site expertise.
                   </p>
                   <p>
-                    Our dedicated team combines deep technical expertise with exceptional customer service. We specialize in proactive IT support and managed services, ensuring your technology infrastructure runs smoothly and efficiently. We take a personal approach to understanding your unique business IT solutions and challenges.
+                    Our dedicated team combines deep technical expertise with exceptional customer service. We specialize in proactive IT support and managed services, ensuring your technology infrastructure runs smoothly and efficiently. We take a personal approach to understanding the needs of every household and business we visit.
                   </p>
                   <p>
-                    Whether you're a growing business in need of managed IT services or a home user requiring emergency computer assistance, LB Computer Help is ready to deliver prompt, professional on-site and remote support at competitive rates.
+                    Whether you're a growing business in need of managed IT services or a home user requiring emergency computer assistance, LB Computer Help is ready to deliver prompt, professional on-site and remote support throughout Anaheim and surrounding communities.
                   </p>
                 </div>
 
@@ -676,7 +678,7 @@ export default function HomePageClient({ services, testimonials }: HomePageClien
                 Reliable Service & Clear Pricing
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                We believe in transparency, expertise, and dependable computer help in Long Beach.
+                We believe in transparency, expertise, and dependable on-site computer help throughout Anaheim and North Orange County.
               </p>
             </FadeIn>
           </div>
@@ -692,7 +694,7 @@ export default function HomePageClient({ services, testimonials }: HomePageClien
                   <li><strong>Hourly Support Rates:</strong> $125/hour for computer assistance, configuration, and optimization services</li>
                   <li><strong>IT Consultation Services:</strong> $150/hour for expert IT consulting and strategy</li>
                 </ul>
-                 <p className="text-gray-700 text-sm mt-4">Upfront, transparent pricing. Diagnostic assessment for a flat fee of $99. Hourly rates for assistance, configuration, and optimization at $125/hour. IT consultation at $150/hour. No hidden fees, just clear, competitive rates for Long Beach IT services.</p>
+                 <p className="text-gray-700 text-sm mt-4">Upfront, transparent pricing. Diagnostic assessment for a flat fee of $99. Hourly rates for assistance, configuration, and optimization at $125/hour. IT consultation at $150/hour. No hidden fees—just clear, competitive rates for Anaheim and North OC IT services.</p>
               </div>
             </FadeIn>
 
@@ -702,10 +704,10 @@ export default function HomePageClient({ services, testimonials }: HomePageClien
                  <svg className="w-12 h-12 mx-auto mb-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H5a2 2 0 00-2 2v9a2 2 0 002 2h14a2 2 0 002-2V8a2 2 0 00-2-2h-5m-4 0V5a2 2 0 114 0v1m-4 0a2 2 0 104 0m-5 8a2 2 0 100-4 2 2 0 000 4zm0 0c1.306 0 2.417.835 2.83 2M9 14a3.001 3.001 0 00-2.83 2M15 11h3m-3 4h2" /></svg>
                 <h3 className="text-xl font-semibold mb-2">Local & Certified</h3>
                  <div className="text-gray-800 flex-grow">
-                   <p>Your local Long Beach computer experts.</p>
-                   <p>Located at 3645 E 4th St Ste A, Long Beach, CA 90814.</p>
+                   <p>Your on-site IT experts for Anaheim and North Orange County.</p>
+                   <p>Mobile service—no public storefront or walk-ins.</p>
                    <p>Call us at (213) 349-6790 for certified and insured IT support.</p>
-                   <p className="mt-2">Proudly serving the Long Beach community since 2018.</p>
+                   <p className="mt-2">Serving Southern California homes and businesses since 2018.</p>
                  </div>
                </div>
              </FadeIn>
@@ -716,7 +718,7 @@ export default function HomePageClient({ services, testimonials }: HomePageClien
                  <svg className="w-12 h-12 mx-auto mb-4 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" /></svg>
                 <h3 className="text-xl font-semibold mb-2">Independent Service Provider</h3>
                 <p className="text-gray-800 text-sm flex-grow">
-                  Independent and unbiased IT service provider. LB Computer Help offers expert tech assistance and guidance, independent of any hardware or software vendor affiliations. We provide unbiased recommendations based on industry best practices and tailored solutions for your specific needs in Long Beach.
+                  Independent and unbiased IT service provider. LB Computer Help offers expert tech assistance and guidance, independent of any hardware or software vendor affiliations. We provide tailored recommendations rooted in industry best practices for the Anaheim and North Orange County communities we serve.
                 </p>
                </div>
              </FadeIn>
@@ -789,22 +791,27 @@ export default function HomePageClient({ services, testimonials }: HomePageClien
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         className="h-5 w-5 text-white"
-                        viewBox="0 0 20 20"
-                        fill="currentColor"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
                       >
                         <path
-                          fillRule="evenodd"
-                          d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
-                          clipRule="evenodd"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth={2}
+                          d="M3 5h18M5 11h14M7 17h10"
                         />
                       </svg>
                     </div>
                     <div>
-                      <h3 className="font-semibold text-lg">Address</h3>
+                      <h3 className="font-semibold text-lg">Service Area</h3>
                       <p className="text-gray-300">
-                        3645 E 4th St Ste A
-                        <br />
-                        Long Beach, CA 90814
+                        On-site appointments across Anaheim, Orange, Fullerton,
+                        Garden Grove, Buena Park, Placentia, and Yorba Linda.
+                      </p>
+                      <p className="text-gray-400 text-sm mt-2">
+                        No walk-ins — we come to you. First 15 miles included;
+                        travel fees apply beyond that.
                       </p>
                     </div>
                   </div>

@@ -3,8 +3,8 @@ import { NextRequest, NextResponse } from "next/server";
 // Context information about LB Computer Help to feed to the AI
 const COMPANY_CONTEXT = `
 About LB Computer Help:
-- LB Computer Help is an IT support and computer services company in Long Beach, CA {/* Changed */}
-- Address: 3645 E 4th St Ste A, Long Beach, CA 90814
+- LB Computer Help is an on-site IT support and computer services company based in Anaheim, CA (founded in Long Beach) {/* Changed */}
+- Service Area: Anaheim, Orange, Fullerton, Garden Grove, Buena Park, Placentia, Yorba Linda
 - Phone: (213) 349-6790
 - Email: support@lbcomputerhelp.com
 - Hours: Monday-Friday 6AM-6PM, Saturday 6AM-6PM, Sunday Closed
@@ -45,7 +45,7 @@ Services offered:
    - Automated backup systems
 
 6. On-site Assistance {/* Changed */}
-   - Available throughout Long Beach and Los Angeles County
+   - Available throughout Anaheim and North Orange County
    - Emergency services available
    - Same-day appointments when possible
 
@@ -233,7 +233,7 @@ function getMockResponse(input: string) {
     lowerInput.includes("address") ||
     lowerInput.includes("where")
   ) {
-    return "We're located at 3645 E 4th St Ste A, Long Beach, CA 90814. We also offer on-site services throughout Long Beach and Los Angeles County.";
+    return "We're a mobile, on-site service covering Anaheim, Orange, Fullerton, Garden Grove, Buena Park, Placentia, and Yorba Linda. We come to you—call (213) 349-6790 to schedule a visit.";
   }
 
   if (lowerInput.includes("hours") || lowerInput.includes("open")) {

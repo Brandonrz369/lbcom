@@ -4,11 +4,11 @@ import type { Testimonial } from "@/components/TestimonialCarousel"; // Import T
 
 // Metadata for the Homepage (Remains in Server Component)
 export const metadata: Metadata = {
-  title: "LB Computer Help | Long Beach IT Support & Computer Services",
+  title: "LB Computer Help | Anaheim On-Site IT Support & Computer Services",
   description:
-    "Your trusted local source for computer services, IT support, managed services, and tech solutions in Long Beach, CA. Serving homes and businesses.",
+    "On-site computer repair, managed services, and IT support for homes and businesses across Anaheim and North Orange County.",
   keywords:
-    "long beach computer help, lb computer help near me, computer assistance Long Beach, device solutions Long Beach, macbook screen options Long Beach, laptop battery performance Long Beach, slow pc help Long Beach, data access consultation Long Beach, network setup Long Beach, local tech experts Long Beach, computer diagnostic pricing, hardware configuration Long Beach",
+    "anaheim computer help, north orange county it support, on-site computer repair anaheim, lb computer help, business it support anaheim, managed services north oc, network setup anaheim, computer diagnostics anaheim, residential it support orange county, mobile it support",
 };
 
 // Define the interface for service data (can be moved to a shared types file)
@@ -36,11 +36,23 @@ function BusinessJsonLd() {
           telephone: "(213) 349-6790",
           address: {
             "@type": "PostalAddress",
-            streetAddress: "3645 E 4th St Ste A",
-            addressLocality: "Long Beach",
+            addressLocality: "Anaheim",
             addressRegion: "CA",
-            postalCode: "90814",
             addressCountry: "US",
+          },
+          areaServed: [
+            { "@type": "City", name: "Anaheim" },
+            { "@type": "City", name: "Orange" },
+            { "@type": "City", name: "Fullerton" },
+            { "@type": "City", name: "Garden Grove" },
+            { "@type": "City", name: "Buena Park" },
+            { "@type": "City", name: "Placentia" },
+            { "@type": "City", name: "Yorba Linda" },
+          ],
+          serviceArea: {
+            "@type": "GeoCircle",
+            geoMidpoint: { "@type": "GeoCoordinates", latitude: 33.8366, longitude: -117.9143 },
+            geoRadius: 24000,
           },
           openingHoursSpecification: [
             {
@@ -69,9 +81,9 @@ function ServiceJsonLd() {
       "@context": "https://schema.org",
       "@type": "Service",
       serviceType: "Hardware Diagnostic & Assessment",
-      description: "Identify issues with Mac/PC screens, batteries, boot problems, or other components. Get clear options and pricing for solutions in Long Beach.",
+      description: "Identify issues with Mac/PC screens, batteries, boot problems, or other components. Get clear options and pricing for solutions in Anaheim and North Orange County.",
       provider: { "@id": "https://lbcomputerhelp.com" },
-      areaServed: { "@type": "City", name: "Long Beach" },
+      areaServed: { "@type": "City", name: "Anaheim" },
       offers: { "@type": "Offer", priceSpecification: { "@type": "PriceSpecification", price: "99", priceCurrency: "USD" } }
     },
     {
@@ -80,7 +92,7 @@ function ServiceJsonLd() {
       serviceType: "System Performance Optimization",
       description: "Improve speed and battery life for your Mac or PC through expert optimization techniques and software configuration.",
       provider: { "@id": "https://lbcomputerhelp.com" },
-      areaServed: { "@type": "City", name: "Long Beach" },
+      areaServed: { "@type": "City", name: "Anaheim" },
     },
      {
       "@context": "https://schema.org",
@@ -88,7 +100,7 @@ function ServiceJsonLd() {
       serviceType: "Data Accessibility Consultation",
       description: "Assistance and guidance for accessing files on malfunctioning devices. Includes data backup strategy advice.",
       provider: { "@id": "https://lbcomputerhelp.com" },
-      areaServed: { "@type": "City", name: "Long Beach" },
+      areaServed: { "@type": "City", name: "Anaheim" },
     },
      {
       "@context": "https://schema.org",
@@ -96,7 +108,7 @@ function ServiceJsonLd() {
       serviceType: "System Security Assessment & Cleanup Assistance",
       description: "Assessment for security threats, malware checks, and assistance with system cleanup for enhanced protection.",
       provider: { "@id": "https://lbcomputerhelp.com" },
-      areaServed: { "@type": "City", name: "Long Beach" },
+      areaServed: { "@type": "City", name: "Anaheim" },
     },
      {
       "@context": "https://schema.org",
@@ -104,7 +116,7 @@ function ServiceJsonLd() {
       serviceType: "Network Setup & Configuration",
       description: "Reliable setup, configuration, and optimization for home and small business Wi-Fi and wired networks.",
       provider: { "@id": "https://lbcomputerhelp.com" },
-      areaServed: { "@type": "City", name: "Long Beach" },
+      areaServed: { "@type": "City", name: "Anaheim" },
     },
      {
       "@context": "https://schema.org",
@@ -112,7 +124,7 @@ function ServiceJsonLd() {
       serviceType: "Software Configuration Assistance",
       description: "Expert help with installing, configuring, or troubleshooting software applications and operating systems.",
       provider: { "@id": "https://lbcomputerhelp.com" },
-      areaServed: { "@type": "City", name: "Long Beach" },
+      areaServed: { "@type": "City", name: "Anaheim" },
     },
   ];
 

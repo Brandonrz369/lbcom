@@ -342,3 +342,11 @@ body {
 .hover-secondary:hover {
   background-color: var(--secondary-dark);
 }
+
+/* Ensure hero content clears fixed support bar on smaller screens */
+@media (max-width: 768px) {
+  #hero,
+  .hero-spacing-adjust {
+    margin-top: 4rem;
+  }
+}

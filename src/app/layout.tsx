@@ -19,11 +19,11 @@ const geistMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Long Beach IT Support & Computer Services | LB Computer Help",
+  title: "Anaheim IT Support & Computer Services | LB Computer Help",
   description:
-    "LB Computer Help provides expert IT support, computer repair, cybersecurity, and managed services in Long Beach and Los Angeles County for businesses and homes. Get fast, reliable tech help today!",
+    "LB Computer Help provides on-site IT support, computer repair, cybersecurity, and managed services for homes and businesses across Anaheim and North Orange County. Get fast, reliable tech help today!",
   keywords:
-    "Long Beach IT support, computer repair, managed services, cybersecurity, data recovery, network support, tech support, IT consulting, business IT support, residential computer services, Long Beach tech help, Los Angeles County IT services",
+    "anaheim it support, computer repair anaheim, managed services north orange county, cybersecurity anaheim, data recovery anaheim, network support orange county, tech support anaheim, it consulting anaheim, business it support north oc, residential computer services anaheim",
 };
 
 export default function RootLayout({
@@ -51,11 +51,23 @@ export default function RootLayout({
               "priceRange": "$$ - $$$",
               "address": {
                 "@type": "PostalAddress",
-                "streetAddress": "3645 E 4th St Ste A",
-                "addressLocality": "Long Beach",
+                "addressLocality": "Anaheim",
                 "addressRegion": "CA",
-                "postalCode": "90814",
                 "addressCountry": "US"
+              },
+              "areaServed": [
+                { "@type": "City", "name": "Anaheim" },
+                { "@type": "City", "name": "Orange" },
+                { "@type": "City", "name": "Fullerton" },
+                { "@type": "City", "name": "Garden Grove" },
+                { "@type": "City", "name": "Buena Park" },
+                { "@type": "City", "name": "Placentia" },
+                { "@type": "City", "name": "Yorba Linda" }
+              ],
+              "serviceArea": {
+                "@type": "GeoCircle",
+                "geoMidpoint": { "@type": "GeoCoordinates", "latitude": 33.8366, "longitude": -117.9143 },
+                "geoRadius": 24000
               },
               "openingHoursSpecification": [
                 {

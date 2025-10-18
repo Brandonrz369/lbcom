@@ -78,9 +78,9 @@ export default function ContactPageClient() {
           }}
         ></div>
         <div className="relative z-10 container mx-auto px-4 md:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Contact LB Computer Help in Long Beach</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Contact LB Computer Help in Anaheim</h1>
           <p className="text-xl max-w-3xl mx-auto">
-            Reach out for expert IT support, computer repair, and managed services in the Long Beach area.
+            Reach out for on-site IT support, computer repair, and managed services throughout Anaheim and North Orange County.
           </p>
         </div>
       </div>
@@ -91,7 +91,7 @@ export default function ContactPageClient() {
           <div className="flex flex-col lg:flex-row gap-12">
             <FadeIn direction="right" className="w-full lg:w-1/2">
               <div className="bg-gray-50 rounded-xl p-8 shadow-md h-full">
-                <h2 className="text-2xl font-bold mb-8">Long Beach IT Support Contact Details</h2>
+                <h2 className="text-2xl font-bold mb-8">Anaheim IT Support Contact Details</h2>
 
                 <div className="space-y-6">
                   {/* Contact Details */}
@@ -102,7 +102,7 @@ export default function ContactPageClient() {
                     <div>
                       <h3 className="text-lg font-medium mb-1">Phone</h3>
                       <p className="text-gray-600 mb-1">(213) 349-6790</p>
-                      <p className="text-sm text-gray-500">Call for immediate <strong>Long Beach computer support</strong> (Mon-Sat, 6AM-6PM)</p>
+                      <p className="text-sm text-gray-500">Call for immediate <strong>on-site computer support</strong> in Anaheim &amp; North OC (Mon-Sat, 6AM-6PM)</p>
                     </div>
                   </div>
                    <div className="flex items-start">
@@ -120,10 +120,9 @@ export default function ContactPageClient() {
                        <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" /><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" /></svg>
                     </div>
                     <div>
-                      <h3 className="text-lg font-medium mb-1">Address</h3>
-                      <p className="text-gray-600 mb-1">3645 E 4th St Ste A</p>
-                      <p className="text-gray-600 mb-1">Long Beach, CA 90814</p>
-                      <p className="text-sm text-gray-500">Visit our <strong>Long Beach</strong> office by appointment for device drop-off or consultation</p>
+                      <h3 className="text-lg font-medium mb-1">Service Area</h3>
+                      <p className="text-gray-600 mb-1">Anaheim, Orange, Fullerton, Garden Grove, Buena Park, Placentia, Yorba Linda</p>
+                      <p className="text-sm text-gray-500">Mobile service — no public storefront or walk-ins. First 15 miles included; travel fees apply beyond that.</p>
                     </div>
                   </div>
                    <div className="flex items-start">
@@ -141,15 +140,14 @@ export default function ContactPageClient() {
                 </div>
 
                 <div className="mt-10">
-                  <h3 className="text-lg font-bold mb-4">Our Long Beach Service Area</h3>
+                  <h3 className="text-lg font-bold mb-4">Our Anaheim &amp; North OC Service Area</h3>
                   <p className="text-gray-600 mb-2">
-                    Providing on-site <strong>computer repair</strong> and <strong>IT support</strong> across Long Beach and Los Angeles County, including:
+                    Providing on-site <strong>computer repair</strong> and <strong>IT support</strong> across Anaheim and surrounding North Orange County communities:
                   </p>
                   <div className="flex flex-wrap gap-2 mt-3">
                     {[
-                      "Long Beach", "Lakewood", "Signal Hill", "Seal Beach", "Los Alamitos", "Carson",
-                      "Belmont Shore", "Naples", "Bixby Knolls", "Alamitos Beach", "California Heights",
-                      "Wrigley", "Downtown Long Beach",
+                      "Anaheim", "Orange", "Fullerton", "Garden Grove", "Buena Park", "Placentia",
+                      "Yorba Linda", "Brea", "La Habra", "Stanton", "Villa Park", "Cypress",
                     ].map((area) => (
                       <span key={area} className="bg-gray-200 text-gray-700 px-3 py-1 rounded-full text-sm">
                         {area}
@@ -251,10 +249,10 @@ export default function ContactPageClient() {
           <FadeIn>
             <div className="text-center mb-8">
               <h2 className="text-3xl font-bold mb-4">
-                Schedule Long Beach IT Support Online
+                Schedule Anaheim IT Support Online
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                Book a convenient time for <strong>IT support</strong>, <strong>computer repair</strong>, or <strong>IT consultation</strong> in Long Beach directly using our online calendar. Select a time that works for you, and we'll confirm your appointment.
+                Book a convenient time for <strong>IT support</strong>, <strong>computer repair</strong>, or <strong>IT consultation</strong> in Anaheim and North Orange County directly using our online calendar. Select a time that works for you, and we'll confirm your appointment.
               </p>
             </div>
 
@@ -271,30 +269,21 @@ export default function ContactPageClient() {
         </div>
       </section>
 
-      {/* Map Section */}
+      {/* On-Site Service Section */}
       <section className="py-12 px-4 md:px-8 bg-gray-50">
         <div className="max-w-6xl mx-auto">
           <FadeIn>
-            <h2 className="text-2xl font-bold mb-8 text-center">
-              Visit Our Long Beach Office (By Appointment)
-            </h2>
-            <div className="bg-white p-2 rounded-xl shadow-md">
-              {/* Responsive iframe container with 16:9 aspect ratio */}
-              <div
-                className="relative overflow-hidden rounded-lg"
-                style={{ paddingBottom: "56.25%" }}
-              >
-                <iframe
-                  className="absolute top-0 left-0 w-full h-full"
-                  src="https://maps.google.com/maps?q=3645+E+4th+St+Ste+A,+Long+Beach,+CA+90814&output=embed"
-                  width="600"
-                  height="450"
-                  style={{ border: 0 }}
-                  allowFullScreen={true}
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                ></iframe>
-              </div>
+            <h2 className="text-2xl font-bold mb-6 text-center">On-Site Service Only</h2>
+            <div className="bg-white p-8 rounded-xl shadow-md max-w-4xl mx-auto text-center">
+              <p className="text-gray-700 mb-4">
+                We don&apos;t maintain a public storefront. Every appointment is completed on-site at your home or business across Anaheim and North Orange County.
+              </p>
+              <p className="text-gray-700 mb-4">
+                Our technicians arrive with the tools required for diagnostics, repairs, and network support. Need remote assistance? We can connect securely when on-site isn&apos;t required.
+              </p>
+              <p className="text-gray-500 text-sm">
+                Have questions about travel fees or availability outside the listed cities? Call (213) 349-6790 and we&apos;ll let you know if we can help.
+              </p>
             </div>
           </FadeIn>
         </div>
@@ -304,9 +293,9 @@ export default function ContactPageClient() {
       <section className="py-16 px-4 md:px-8 bg-red-600 text-white">
         <div className="max-w-4xl mx-auto text-center">
           <FadeIn>
-            <h2 className="text-3xl font-bold mb-4">Need Urgent IT Support in Long Beach?</h2>
+            <h2 className="text-3xl font-bold mb-4">Need Urgent IT Support in Anaheim?</h2>
             <p className="text-xl mb-8 text-red-100 max-w-2xl mx-auto">
-              Our emergency <strong>Long Beach IT support</strong> team is available to help with critical <strong>computer service</strong> and <strong>business IT</strong> issues.
+              Our emergency <strong>Anaheim IT support</strong> team is available to help with critical <strong>computer service</strong> and <strong>business IT</strong> issues across North Orange County.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link

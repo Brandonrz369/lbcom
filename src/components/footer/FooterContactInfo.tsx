@@ -50,23 +50,12 @@ export default function FooterContactInfo() {
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth={2}
-              d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
-            />
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"
+              d="M3 5h18M5 11h14M7 17h10"
             />
           </svg>
-          <div>
-            <span className="text-gray-300">
-              3645 E 4th St Ste A
-            </span>
-            <br />
-            <span className="text-gray-300">
-              Long Beach, CA 90814
-            </span>
+          <div className="text-gray-300">
+            On-site service across Anaheim, Orange, Fullerton, Garden Grove, Buena Park, Placentia, and Yorba Linda.
+            <p className="text-sm text-gray-400">Mobile business — no walk-ins.</p>
           </div>
         </li>
       </ul>
