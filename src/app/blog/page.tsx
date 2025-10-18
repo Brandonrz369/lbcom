@@ -13,10 +13,10 @@ export default function BlogPage() {
         <div className="absolute inset-0 bg-black opacity-30"></div>
         <div className="relative z-10 container mx-auto px-4 md:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            LB Computer Help Blog | Long Beach Tech Insights
+            LB Computer Help Blog | Anaheim Tech Insights
           </h1>
           <p className="text-xl max-w-3xl mx-auto">
-            Expert IT advice, computer tips, and industry insights from your local Long Beach tech professionals.
+            Expert IT advice, computer tips, and industry insights from your local Anaheim &amp; North Orange County tech professionals.
           </p>
         </div>
       </div>

@@ -3,9 +3,11 @@ import type { Metadata } from "next";
 
 // Metadata for Services Page (Remains in Server Component)
 export const metadata: Metadata = {
-  title: "Our IT Services | LB Computer Help | Long Beach",
-  description: "Explore comprehensive IT services from LB Computer Help in Long Beach: Computer diagnostics, managed IT, mobile device assistance, network solutions, data recovery consultation, and more.",
-  keywords: "Long Beach IT services, computer repair Long Beach, managed IT services Long Beach, MSP Long Beach, business IT support Long Beach, network support Long Beach, cybersecurity services Long Beach, data recovery Long Beach, IT consulting Long Beach, remote IT support Long Beach, laptop repair Long Beach, mobile device repair Long Beach, tech support Long Beach", // Updated page-specific keywords
+  title: "Our IT Services | LB Computer Help | Anaheim",
+  description:
+    "Explore comprehensive on-site IT services from LB Computer Help in Anaheim: computer diagnostics, managed IT, mobile device assistance, network solutions, data recovery consultation, and more.",
+  keywords:
+    "anaheim it services, computer repair anaheim, managed it services anaheim, msp north orange county, business it support anaheim, network support anaheim, cybersecurity services orange county, data recovery anaheim, it consulting anaheim, remote it support anaheim, laptop repair anaheim, mobile device repair orange county, tech support anaheim",
 };
 
 // Service data (can stay here or be moved to a lib file)
@@ -46,7 +48,8 @@ const servicesDetail = [
       { service: "On-demand IT Support", price: "$125/hr", description: "As-needed IT assistance" },
     ],
     category: "business",
-    longDescription: "Focus on your core operations while we handle your technology. Our Managed IT Services (MSP) provide comprehensive IT management tailored for businesses in Long Beach. Wondering **why use managed services?** We offer **fixed fee IT support in Long Beach**, providing predictable monthly costs that can significantly **reduce IT costs** (potentially 25-45%) compared to traditional models. Our service includes **proactive IT monitoring for your small business in Long Beach**, aiming to **improve uptime** and operational efficiency by preventing issues before they impact you. Benefit from robust **cybersecurity managed services in Long Beach**, including proactive threat management that reduces security incidents. Gain access to certified expertise and enterprise-grade tools without the overhead of a large in-house team. We handle everything from infrastructure management and strategic planning to cloud services and security, ensuring your IT aligns with your business goals. Let LB Computer Help be your strategic IT partner.",
+    longDescription:
+      "Focus on your core operations while we handle your technology. Our Managed IT Services (MSP) provide comprehensive IT management tailored for businesses across Anaheim and North Orange County. Wondering **why use managed services?** We offer **fixed fee IT support in Anaheim**, providing predictable monthly costs that can significantly **reduce IT costs** (potentially 25-45%) compared to traditional models. Our service includes **proactive IT monitoring for your business in North OC**, aiming to **improve uptime** and operational efficiency by preventing issues before they impact you. Benefit from robust **cybersecurity managed services in Anaheim**, including proactive threat management that reduces security incidents. Gain access to certified expertise and enterprise-grade tools without the overhead of a large in-house team. We handle everything from infrastructure management and strategic planning to cloud services and security, ensuring your IT aligns with your business goals. Let LB Computer Help be your strategic IT partner.",
   },
    {
     title: "Mobile Device Services",
@@ -154,7 +157,7 @@ function ServicesPageJsonLd() {
     serviceType: service.title, // Use the service title
     description: service.longDescription, // Use the long description
     provider: { "@id": "https://lbcomputerhelp.com" }, // Reference the main business ID
-    areaServed: { "@type": "City", name: "Long Beach" },
+    areaServed: { "@type": "City", name: "Anaheim" },
     // Optionally add offers if pricing is consistent or representative
     // offers: service.pricing.map(p => ({
     //   "@type": "Offer",

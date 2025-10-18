@@ -342,16 +342,16 @@ export default function BlogListClient({ allPosts }: BlogListClientProps) {
                 <div className="bg-blue-600 rounded-xl shadow-md overflow-hidden">
                   <div className="p-6 text-white text-center">
                     <h3 className="text-lg font-bold mb-2">
-                      Need Tech Support in Long Beach?
+                      Need Tech Support in Anaheim?
                     </h3>
                     <p className="text-blue-100 mb-4">
-                      LB Computer Help is here for all your <strong>Long Beach computer repair</strong> and <strong>IT support</strong> needs.
+                      LB Computer Help delivers on-site <strong>computer repair</strong> and <strong>IT support</strong> throughout Anaheim and North Orange County.
                     </p>
                     <a
                       href="tel:2133496790"
                       className="inline-block bg-white text-blue-600 font-bold py-2 px-6 rounded-lg hover:bg-blue-50 transition-colors"
                     >
-                      Call (213) 349-6790 for Long Beach Support
+                      Call (213) 349-6790 for Anaheim Support
                     </a>
                   </div>
                 </div>

@@ -129,7 +129,7 @@ export default function ResidentialBusinessClientPage(/* props: ResidentialBusin
         <div className="container mx-auto px-4 relative z-10 text-center">
           <FadeIn direction="up">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-4 text-white">
-              Long Beach Computer Help: <br /> Expert Assistance for Your Tech Challenges
+              Anaheim On-Site Computer Help:<br /> Expert Assistance for Your Tech Challenges
             </h1>
             <div className="text-2xl md:text-3xl lg:text-4xl text-blue-200 mb-6">
                <TypewriterEffect
@@ -145,7 +145,7 @@ export default function ResidentialBusinessClientPage(/* props: ResidentialBusin
                 />
             </div>
             <p className="text-lg md:text-xl text-white opacity-90 mb-8 max-w-3xl mx-auto">
-              Facing computer troubles in Long Beach? From slow Macs and PCs to screen issues, battery drain, or network problems, LB Computer Help offers expert diagnostics, configuration, optimization, and consultation services. Get reliable, local computer help with transparent pricing.
+              Facing computer troubles in Anaheim or North Orange County? From slow Macs and PCs to screen issues, battery drain, or network problems, LB Computer Help offers expert diagnostics, configuration, optimization, and consultation services. Get reliable, local computer help with transparent pricing—and no walk-ins required because we come to you.
             </p>
           </FadeIn>
           <FadeIn direction="up" delay={0.2}>
@@ -175,10 +175,10 @@ export default function ResidentialBusinessClientPage(/* props: ResidentialBusin
           <div className="text-center mb-12">
             <FadeIn direction="up">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Solutions for Common Computer Problems in Long Beach
+                Solutions for Common Computer Problems in Anaheim
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                We provide expert diagnostics, configuration, and optimization services for a wide range of computer issues faced by Long Beach residents and businesses.
+                We provide expert diagnostics, configuration, and optimization services for a wide range of computer issues faced by Anaheim and North Orange County residents and businesses.
               </p>
             </FadeIn>
           </div>
@@ -207,7 +207,7 @@ export default function ResidentialBusinessClientPage(/* props: ResidentialBusin
                 Reliable Service & Clear Pricing
               </h2>
               <p className="text-gray-600 max-w-2xl mx-auto">
-                We believe in transparency, expertise, and dependable computer help in Long Beach.
+                We believe in transparency, expertise, and dependable on-site computer help throughout Anaheim and North Orange County.
               </p>
             </FadeIn>
           </div>
@@ -235,9 +235,9 @@ export default function ResidentialBusinessClientPage(/* props: ResidentialBusin
                 <h3 className="text-xl font-semibold mb-2">Local & Certified</h3>
                  <div className="text-gray-600 flex-grow">
                    <p>LB Computer Help</p>
-                   <p>3645 E 4th St Ste A, Long Beach, CA 90814</p>
+                   <p>On-site IT support for Anaheim &amp; North Orange County</p>
                    <p>(213) 349-6790</p>
-                   <p className="mt-2">Serving Long Beach Since 2018</p>
+                   <p className="mt-2">Serving Southern California since 2018</p>
                    {/* Add Certification Badges/Text Here if applicable */}
                  </div>
                </div>
@@ -263,7 +263,7 @@ export default function ResidentialBusinessClientPage(/* props: ResidentialBusin
           <div className="text-center mb-12">
             <FadeIn direction="up">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Hear From Your Long Beach Neighbors
+                Hear From Your Anaheim &amp; North OC Neighbors
               </h2>
             </FadeIn>
           </div>
@@ -279,7 +279,7 @@ export default function ResidentialBusinessClientPage(/* props: ResidentialBusin
           <div className="text-center mb-12">
             <FadeIn direction="up">
               <h2 className="text-3xl md:text-4xl font-bold mb-4">
-                Get Professional Computer Help in Long Beach Today
+                Get Professional Computer Help in Anaheim Today
               </h2>
               <p className="text-gray-300 max-w-2xl mx-auto">
                 Ready for solutions? Contact us for a consultation or assessment quote. We offer reliable computer help near you.
@@ -306,12 +306,16 @@ export default function ResidentialBusinessClientPage(/* props: ResidentialBusin
                        </div>
                        <div><h3 className="font-semibold text-lg">Email</h3><p className="text-gray-300">support@lbcomputerhelp.com</p></div>
                      </div>
-                     {/* Address */}
+                     {/* Service Area */}
                      <div className="flex items-start gap-4">
                        <div className="flex-shrink-0 bg-blue-600 rounded-full p-3">
-                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-white" viewBox="0 0 20 20" fill="currentColor"><path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" /></svg>
+                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5h18M5 11h14M7 17h10" /></svg>
                        </div>
-                       <div><h3 className="font-semibold text-lg">Address</h3><p className="text-gray-300">3645 E 4th St Ste A<br />Long Beach, CA 90814</p></div>
+                       <div>
+                         <h3 className="font-semibold text-lg">Service Area</h3>
+                         <p className="text-gray-300">Anaheim, Orange, Fullerton, Garden Grove, Buena Park, Placentia, Yorba Linda</p>
+                         <p className="text-gray-400 text-sm mt-2">On-site only — we travel to you. First 15 miles included; travel fees beyond that.</p>
+                       </div>
                      </div>
                      {/* Hours */}
                      <div className="flex items-start gap-4">

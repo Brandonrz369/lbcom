@@ -39,4 +39,4 @@ You're an expert in your industry, not in IT. When you're trying to manage your 
 
 If any of these signs sound familiar, it's time to consider managed IT services. A managed service provider can help you improve your uptime, enhance your security, and reduce your IT costs.
 
-At LB Computer Help, we offer a wide range of managed IT services to businesses in Long Beach and Los Angeles County. Contact us today to learn more about how we can help you grow your business.
+At LB Computer Help, we offer a wide range of managed IT services to businesses across Anaheim and North Orange County. Contact us today to learn more about how we can help you grow your business.

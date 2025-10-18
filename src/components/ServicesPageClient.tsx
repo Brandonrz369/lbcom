@@ -46,9 +46,9 @@ export default function ServicesPageClient({ servicesDetail }: ServicesPageClien
       <div className="relative py-24 bg-gradient-to-r from-blue-800 to-blue-600 text-white">
         <div className="absolute inset-0 bg-black opacity-30"></div>
         <div className="relative z-10 container mx-auto px-4 md:px-8 text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Our IT Services in Long Beach</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Our IT Services in Anaheim</h1>
           <p className="text-xl max-w-3xl mx-auto">
-            Comprehensive IT support and computer services for businesses and individuals throughout Long Beach and Los Angeles County.
+            Comprehensive on-site IT support and computer services for homes and businesses throughout Anaheim and North Orange County.
           </p>
         </div>
       </div>
@@ -332,23 +332,23 @@ export default function ServicesPageClient({ servicesDetail }: ServicesPageClien
             {/* FAQ Items */}
              <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-lg font-semibold text-gray-900 mb-3">What areas do you serve?</h3>
-              <p className="text-gray-600">We provide expert <strong>IT support</strong> and <strong>computer services</strong> primarily in <strong>Long Beach</strong> and surrounding Los Angeles County communities like Lakewood, Signal Hill, and Seal Beach. For businesses requiring <strong>managed IT services</strong> or specialized <strong>network solutions</strong>, we offer remote support across Southern California.</p>
+              <p className="text-gray-600">We provide expert <strong>IT support</strong> and <strong>computer services</strong> on-site throughout <strong>Anaheim</strong>, <strong>Orange</strong>, <strong>Fullerton</strong>, <strong>Garden Grove</strong>, <strong>Buena Park</strong>, <strong>Placentia</strong>, and <strong>Yorba Linda</strong>. For businesses requiring <strong>managed IT services</strong> or specialized <strong>network solutions</strong>, we can extend remote support across Southern California.</p>
             </div>
              <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-lg font-semibold text-gray-900 mb-3">Do you offer same-day service?</h3>
-              <p className="text-gray-600">Yes, we strive to offer same-day <strong>computer repair</strong> and <strong>tech support</strong> in <strong>Long Beach</strong> for many urgent issues, depending on availability. Critical <strong>business IT support</strong> needs receive priority scheduling for emergency assistance.</p>
+              <p className="text-gray-600">Yes, we strive to offer same-day <strong>computer repair</strong> and <strong>tech support</strong> across <strong>Anaheim</strong> and nearby North Orange County cities, depending on availability. Critical <strong>business IT support</strong> needs receive priority scheduling for emergency assistance.</p>
             </div>
              <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-lg font-semibold text-gray-900 mb-3">What is your warranty policy?</h3>
-              <p className="text-gray-600">Our <strong>Long Beach computer services</strong> come with a 90-day warranty on labor. If any issue arises with our service within this period, we will address it at no additional charge. Specific component warranties may vary and will be clearly explained.</p>
+              <p className="text-gray-600">Our <strong>on-site IT services</strong> come with a 90-day warranty on labor for Anaheim and North OC clients. If any issue arises with our work within this period, we will address it at no additional charge. Specific component warranties may vary and will be clearly explained.</p>
             </div>
              <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-lg font-semibold text-gray-900 mb-3">Do I need to bring my device to you?</h3>
-              <p className="text-gray-600">We offer flexible options! You can utilize our convenient on-site <strong>IT support</strong> at your <strong>Long Beach</strong> home or business, or use our drop-off service. For many software and configuration issues, our <strong>remote IT support</strong> allows us to resolve problems quickly without an on-site visit.</p>
+              <p className="text-gray-600">We are an on-site only service. Our technicians travel to your location for <strong>IT support</strong> at your <strong>Anaheim</strong>-area home or business. For many software and configuration issues, our <strong>remote IT support</strong> allows us to resolve problems quickly without an on-site visit.</p>
             </div>
              <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-lg font-semibold text-gray-900 mb-3">How does the MSP service work?</h3>
-              <p className="text-gray-600">Our <strong>Managed Service Provider (MSP)</strong> plans offer comprehensive <strong>business IT support</strong> in <strong>Long Beach</strong>. For a fixed monthly fee, you get proactive system monitoring, regular maintenance, unlimited <strong>help desk support</strong>, robust <strong>cybersecurity services</strong>, strategic IT planning, and management of your entire tech infrastructure.</p>
+              <p className="text-gray-600">Our <strong>Managed Service Provider (MSP)</strong> plans offer comprehensive <strong>business IT support</strong> for companies across <strong>Anaheim</strong> and North Orange County. For a fixed monthly fee, you get proactive system monitoring, regular maintenance, unlimited <strong>help desk support</strong>, robust <strong>cybersecurity services</strong>, strategic IT planning, and management of your entire tech infrastructure.</p>
             </div>
              <div className="bg-white p-6 rounded-lg shadow-md">
               <h3 className="text-lg font-semibold text-gray-900 mb-3">What forms of payment do you accept?</h3>

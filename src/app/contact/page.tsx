@@ -3,9 +3,11 @@ import type { Metadata } from "next";
 
 // Metadata for Contact Page (Remains in Server Component)
 export const metadata: Metadata = {
-  title: "Contact LB Computer Help | Long Beach IT Support",
-  description: "Contact LB Computer Help in Long Beach for IT support, computer services, and managed IT solutions. Call, email, or schedule an appointment online.",
-  keywords: "contact LB Computer Help, Long Beach IT support contact, schedule computer repair Long Beach, business IT support Long Beach contact, managed services Long Beach contact, LB Computer Help phone, Long Beach tech support", // Updated page-specific keywords
+  title: "Contact LB Computer Help | Anaheim On-Site IT Support",
+  description:
+    "Contact LB Computer Help for on-site IT support, computer services, and managed IT solutions in Anaheim and North Orange County. Call, email, or schedule an appointment online.",
+  keywords:
+    "contact lb computer help, anaheim it support contact, schedule computer repair anaheim, business it support north orange county, managed services anaheim contact, lb computer help phone, mobile it support anaheim",
 };
 
 // LocalBusiness Schema for Contact Page
@@ -25,10 +27,8 @@ function ContactPageJsonLd() {
             "telephone": "(213) 349-6790",
             "address": {
               "@type": "PostalAddress",
-              "streetAddress": "3645 E 4th St Ste A",
-              "addressLocality": "Long Beach",
+              "addressLocality": "Anaheim",
               "addressRegion": "CA",
-              "postalCode": "90814",
               "addressCountry": "US"
             },
             "openingHoursSpecification": [
@@ -39,10 +39,15 @@ function ContactPageJsonLd() {
                 "closes": "18:00"
               }
             ],
-            "areaServed": {
-              "@type": "City",
-              "name": "Long Beach"
-            }
+            "areaServed": [
+              { "@type": "City", "name": "Anaheim" },
+              { "@type": "City", "name": "Orange" },
+              { "@type": "City", "name": "Fullerton" },
+              { "@type": "City", "name": "Garden Grove" },
+              { "@type": "City", "name": "Buena Park" },
+              { "@type": "City", "name": "Placentia" },
+              { "@type": "City", "name": "Yorba Linda" }
+            ]
           }
         }),
       }}

@@ -85,7 +85,7 @@ export default function ChatBot() {
       "who are you":
         "I'm the LB Computer Help AI assistant. I can provide information about our services, help troubleshoot common issues, or schedule a consultation. How can I assist you today?",
       about:
-        "LB Computer Help is a leading IT support and computer services company in Long Beach, CA. We've been serving businesses and individuals since 2010 with a wide range of tech services.",
+        "LB Computer Help is a trusted on-site IT support and computer services company now based in Anaheim, CA. Founded in Long Beach in 2010, we help homes and businesses across North Orange County with a wide range of tech services.",
 
       // Services
       services:
@@ -131,9 +131,9 @@ export default function ChatBot() {
       contact:
         "The best ways to contact us are by phone at (213) 349-6790 or email at support@lbcomputerhelp.com. For urgent matters, calling is recommended.",
       location:
-        "We're located at 3645 E 4th St Ste A, Long Beach, CA 90814. We also offer on-site services throughout Long Beach and Los Angeles County.",
+        "We operate as a mobile, on-site service covering Anaheim, Orange, Fullerton, Garden Grove, Buena Park, Placentia, and Yorba Linda. We don't maintain a public storefront—our technicians come to you.",
       address:
-        "Our office is located at 3645 E 4th St Ste A, Long Beach, CA 90814. We're easily accessible from downtown Long Beach and provide service throughout the LA metro area.",
+        "We're an on-site only business serving Anaheim and North Orange County. Instead of a walk-in office, we travel to homes and businesses—call (213) 349-6790 to book a visit.",
       hours:
         "Our business hours are Monday-Friday 6AM-6PM and Saturday 6AM-6PM. We're closed on Sundays.",
     };
@@ -333,7 +333,7 @@ export default function ChatBot() {
           lowerInput.includes("where")
         ) {
           errorMessage =
-            "While I'm having some technical difficulties, I can tell you that we're located at 3645 E 4th St Ste A, Long Beach, CA 90814. We also offer on-site services throughout Long Beach and LA County.";
+            "While I'm having some technical difficulties, I can share that we're an on-site only service covering Anaheim, Orange, Fullerton, Garden Grove, Buena Park, Placentia, and Yorba Linda. We come to you—call (213) 349-6790 to schedule a visit.";
         } else if (
           lowerInput.includes("appointment") ||
           lowerInput.includes("schedule") ||
