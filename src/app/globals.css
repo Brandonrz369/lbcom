@@ -64,6 +64,7 @@ html {
   /* Core colors */
   --background: #ffffff;
   --foreground: #171717;
+  --site-header-height: 0px;
 
   /* Primary blue colors */
   --primary: #2563eb;
